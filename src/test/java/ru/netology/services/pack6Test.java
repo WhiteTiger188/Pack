@@ -7,7 +7,7 @@ class packTest {
     @Test
     public void testpack6() {
         //       Arrange
-        pack6 service = new pack6();
+        FreelancerServis service = new FreelancerServis();
         int income = 10_000;
         int expenses = 3_000;
         int threshold = 20_000;
@@ -21,7 +21,7 @@ class packTest {
     @Test
     public void testpack60() {
         //       Arrange
-        pack6 service = new pack6();
+        FreelancerServis service = new FreelancerServis();
         int income = 100_000;
         int expenses = 60_000;
         int threshold = 150_000;
